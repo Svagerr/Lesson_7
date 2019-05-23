@@ -1,0 +1,152 @@
+#footer {
+		width: 420px;
+		padding: 4px;
+		padding-bottom: 10px;
+        padding-top: 50px;
+		border: 2px solid #708090;
+		font-size: 0;
+		margin: 0 auto;
+        position: relative;
+        border-radius: 20px;
+        background: linear-gradient(to top, #cdbad0, #efe9f3);
+        box-shadow: 0 0 10px #708090;
+        position: absolute;
+        top = 10px;
+        left = 10px;
+}
+#calc {
+		width: 395px;
+		padding: 4px;
+		padding-bottom: 8px;
+        padding-top: 43px;
+		border: 1px solid #708090;
+		margin: 0 auto;
+        background-color: #dde7f3;
+        
+       
+		}
+#menu {
+    width: 392px;
+    height: 30px;
+    border: 1px solid #708090;
+    position: absolute;
+    left: 12px;
+    top: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    background: linear-gradient(to top, #dde7f3, white)
+    
+}
+#display {
+			display: block;
+			width: 375px;
+			height: 60px;
+			border: 1px solid #708090;
+			margin: 0 auto;
+			margin: 4px;
+			text-align: right;
+			outline: 0;
+			background-color: darkgrey;
+			padding-right: 5px;
+            font-size: 32px;
+            background: linear-gradient(to top, white, #dde7f3)
+		}
+.button {
+			width: 80px;
+			height: 60px;
+			line-height: 60px;
+			display: inline-block;
+			cursor: pointer;
+			border: 1px solid #708090;
+			margin: 8px;
+			font-size: 32px;
+			text-align: center;
+			transition: background .1s,
+			color .1s;
+            background: linear-gradient(to top, #dde7f3, white);
+            box-shadow: 0 0 5px rgba(0,0,0,0.5);
+		}
+.button:hover {
+			background: #000;
+			color: #fff;
+		}
+.button_C {
+			position: absolute;
+			left: 26px;
+			top: 100px;
+			width: 40px;
+			height: 40px;
+			font-size: 24px;
+			line-height: 40px;
+            border-color: floralwhite;
+            border: 1px solid black;
+            
+		}
+#name {
+    position: absolute;
+    left: 50px;
+    top: 5px;
+    width: 90px;
+    height: 40px;
+	font-size: 24px;
+    line-height: 40px;            
+}
+
+#image {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    width: 90px;
+    height: 40px;
+	font-size: 24px;
+    line-height: 40px;            
+}
+#standart_button {
+    position: absolute;
+    left: 230px;
+    top: -1px;
+    width: 180px;
+    height: 35px;
+	font-size: 24px;
+    line-height: 40px;
+    border: 2px solid #708090;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+#close {
+    float: left;
+    width: 59px;
+    height: 35px;
+    padding-left: 1px;
+    border-right: 1px solid black;
+    text-align: center;
+    background: linear-gradient(to top, #d6c9da, #e8e3e9);
+    border-radius: 0px 0px 0px 10px;
+}
+#size {
+    float: left;
+    width: 59px;
+    height: 35px;
+    border-right: 1px solid black;
+    text-align: center;
+    background: linear-gradient(to top, #d6c9da, #e8e3e9)
+}
+#exit {
+    float: left;
+    width: 59px;
+    height: 35px;
+    text-align: center;
+    background: linear-gradient(to top, #d2664a, #eaa294);
+    border-radius: 0px 0px 10px 0px;
+
+}
+span {
+    padding: 5px;
+}
+ html { height: 100%; }
+body {
+    margin: 0;
+    height: 100%;
+        background: url(Fon.jpg);
+    background-size: cover;
+}
